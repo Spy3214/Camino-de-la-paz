@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>El Camino de la Paz</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Camino de la Paz</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>🕊️ El Camino de la Paz</h1>
-        <p>Escribe una ley por turno que comience con la palabra "ley".<br>
-        Tu objetivo es cubrir los 20 derechos fundamentales para lograr la paz.</p>
-        <textarea id="leyInput" placeholder="Escribe aquí tu ley..."></textarea>
-        <button id="enviarBtn">Enviar</button>
-        <div id="output"></div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-    <script>
-        confetti();
-    }
+  <div class="container">
+    <h1>🕊️ El Camino de la Paz</h1>
+    <p>Escribe una ley por turno que comience con la palabra "ley".<br>
+    Tu objetivo es cubrir los 20 derechos fundamentales para lograr la paz.</p>
+    <textarea id="leyInput" placeholder="Escribe aquí tu ley..."></textarea>
+    <button id="enviarBtn">Enviar</button>
+    <div id="output"></div>
+  </div>
 
-    document.getElementById("enviarBtn").addEventListener("click", analizarLey);
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
